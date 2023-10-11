@@ -18,6 +18,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('hello-world', function () {
+Route::get('test', function () {
     return response()->json(['message' => 'Hello World!'], 200);
 });
